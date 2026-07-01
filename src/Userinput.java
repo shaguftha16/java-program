@@ -4,12 +4,14 @@ public class Userinput {
         System.out.println("taking user input");
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the 1st number");
-       // int a = sc.nextInt();
+       int c = sc.nextInt();
        float a = sc.nextFloat();
         System.out.println("enter the 2nd number");
-       // int b = sc.nextInt();
+        int d = sc.nextInt();
        float b =sc.nextFloat();
          float multi = a * b ;
-        System.out.println("the multiplication of both number is" + multi);
+         int multi1  = c*d;      
+          System.out.println("the multiplication of both number is" + multi);
+          System.out.println("the multiplication of both number is" + multi1);
     }
 }
